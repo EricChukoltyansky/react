@@ -1,17 +1,18 @@
 const data = ["hello", "world"];
+const number1 = 5;
+const number2 = 6;
+const string = "I love React!";
+const length = string.length;
 
 function helloWorld() {
   return `
       ${data[0]}
       ${data[1]}
+      
+      ${number1 + number2}
+      
+      The string’s length is ${length}
       `;
 }
 
 export default helloWorld;
-
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/EricChukoltyansky/react.git
-// git push -u origin main
