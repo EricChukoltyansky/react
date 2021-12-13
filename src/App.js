@@ -1,12 +1,13 @@
 import "./App.css";
 import React from "react";
-import Increment from "./components/7.1/Increment";
+import HideShow from "./components/7.2/HideShow";
+
 
 
 function App() {
   return (
     <>
-      <Increment/>
+      <HideShow/>
     </>
   );
 }
