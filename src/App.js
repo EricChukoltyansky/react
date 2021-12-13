@@ -1,9 +1,13 @@
-import Quiz from "./components/3.2/quiz/Quiz";
+import Button from "./components/4.1/Button";
 import "./App.css";
 import React from "react";
 
 function App() {
-  return <Quiz/>;
+  return (
+    <>
+      <Button text="important" /> <Button text={<strong>"not important"</strong>} />
+    </>
+  );
 }
 
 export default App;
