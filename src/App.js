@@ -1,13 +1,12 @@
 import "./App.css";
 import React from "react";
-import Cards from "./components/6.1/Cards/Cards";
-
+import Increment from "./components/7.1/Increment";
 
 
 function App() {
   return (
     <>
-      <Cards/>
+      <Increment/>
     </>
   );
 }
