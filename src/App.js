@@ -1,12 +1,13 @@
 import "./App.css";
 import React from "react";
+import Cards from "./components/6.1/Cards/Cards";
 
-import Buttons from "./components/6.1/Buttons";
+
 
 function App() {
   return (
     <>
-      <Buttons />
+      <Cards/>
     </>
   );
 }
