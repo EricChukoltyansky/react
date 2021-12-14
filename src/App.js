@@ -1,13 +1,13 @@
 import "./App.css";
 import React from "react";
-import Color from "./components/8.1/Color";
-
-
+import Boxes from "./components/8.2/Box1";
 
 function App() {
   return (
     <>
-      <Color/>
+      <Boxes width="200px" height="200px" />
+      <Boxes width="100px" height="100px" />
+      <Boxes width="75px" height="75px" />
     </>
   );
 }
