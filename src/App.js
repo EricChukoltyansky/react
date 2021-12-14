@@ -1,13 +1,12 @@
 import "./App.css";
 import React from "react";
-import Boxes from "./components/8.2/Box1";
+
+import Box from "./components/8.3/Box";
 
 function App() {
   return (
     <>
-      <Boxes width="200px" height="200px" />
-      <Boxes width="100px" height="100px" />
-      <Boxes width="75px" height="75px" />
+      <Box />
     </>
   );
 }
