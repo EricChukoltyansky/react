@@ -1,12 +1,11 @@
 import "./App.css";
 import React from "react";
-
-import Box from "./components/8.3/Box";
+import Spinner from "./components/8.4/Spinner";
 
 function App() {
   return (
     <>
-      <Box />
+      <Spinner />
     </>
   );
 }
