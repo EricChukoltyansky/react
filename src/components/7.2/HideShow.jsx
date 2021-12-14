@@ -5,8 +5,8 @@ class HideShow extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      colorBox: 'color',
-      show: true,
+      // colorBox: 'color',
+      show: false,
     };
   }
 

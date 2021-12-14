@@ -1,13 +1,13 @@
 import "./App.css";
 import React from "react";
-import HideShow from "./components/7.2/HideShow";
+import Color from "./components/8.1/Color";
 
 
 
 function App() {
   return (
     <>
-      <HideShow/>
+      <Color/>
     </>
   );
 }
