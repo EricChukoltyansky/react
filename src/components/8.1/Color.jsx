@@ -5,7 +5,7 @@ class Color extends React.Component {
 
   componentDidMount = () => {
     setTimeout(()=> {
-      this.setState({ favouriteColor: "yellow" });
+      this.setState(()=>({ favouriteColor: "yellow" }));
     }, 1000);
   };
 
@@ -13,7 +13,7 @@ class Color extends React.Component {
     return (
       <>
         <h1>My favourite colour is purple</h1>
-        <h1>The updated favorite color is {this.componentDidMount()}</h1>
+        <h1>The updated favorite color is {this.state.favouriteColor}</h1>
       </>
     );
   }
