@@ -1,12 +1,11 @@
 import "./App.css";
 import React from "react";
-
-import CheckBoxApp from "./components/11.2/CheckBoxApp";
+import Form from "./components/11.3/Form";
 
 function App() {
   return (
     <>
-      <CheckBoxApp />
+      <Form />
     </>
   );
 }
