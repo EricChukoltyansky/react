@@ -1,11 +1,11 @@
 import "./App.css";
 import React from "react";
-import Spinner from "./components/8.4/Spinner";
+import ButtonApp from "./components/11.1/ButtonApp";
 
 function App() {
   return (
     <>
-      <Spinner />
+      <ButtonApp />
     </>
   );
 }
