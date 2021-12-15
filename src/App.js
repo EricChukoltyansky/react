@@ -1,11 +1,12 @@
 import "./App.css";
 import React from "react";
-import ButtonApp from "./components/11.1/ButtonApp";
+
+import CheckBoxApp from "./components/11.2/CheckBoxApp";
 
 function App() {
   return (
     <>
-      <ButtonApp />
+      <CheckBoxApp />
     </>
   );
 }
