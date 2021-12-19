@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 
 export default class FormReview extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <>
@@ -13,7 +10,7 @@ export default class FormReview extends Component {
         <p>{this.props.information.textAreaValue}</p>
         <button
           onClick={() => {
-            this.props.handleChange("isSubmitted",false);
+            this.props.handleChange("isSubmitted", false);
           }}
         >
           Back to the drawing board
